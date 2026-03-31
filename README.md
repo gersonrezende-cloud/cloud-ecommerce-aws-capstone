@@ -2,7 +2,7 @@
 
 ## 🌐 Live Application
 
-http://d1caz7xn3ut6or.cloudfront.net/
+http://d1cza7xn3ut6or.cloudfront.net/
 
 ---
 
