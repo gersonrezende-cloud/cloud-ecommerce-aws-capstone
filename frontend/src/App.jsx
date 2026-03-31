@@ -36,7 +36,7 @@ function App() {
         </nav>
 
         <div className="hero-content">
-          <h2>Cloud-Based E-Commerce Platform</h2>
+          <h2>CloudCart CI/CD Working 🚀</h2>
           <p>
             Frontend prototype for a food distribution platform built with React
             and deployed through AWS services.
