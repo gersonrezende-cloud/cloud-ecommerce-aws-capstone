@@ -1,0 +1,102 @@
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1d4ed8);
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 3rem;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content button,
+.product-card button {
+  background: #ffffff;
+  color: #1d4ed8;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.features,
+.products,
+.about {
+  padding: 3rem;
+}
+
+.features h2,
+.products h2,
+.about h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.feature-grid,
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-card,
+.product-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.product-card strong {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+}
+
+.about p {
+  max-width: 800px;
+}
+
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
