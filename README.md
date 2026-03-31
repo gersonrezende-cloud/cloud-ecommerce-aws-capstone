@@ -118,12 +118,23 @@ aws cloudfront create-invalidation --distribution-id EJSVBZJ7AZO30 --paths "/*"
 
 ---
 
+## ✅ CI/CD Pipeline Verified
+
+A change pushed to the application code automatically:
+
+- Triggered a GitHub Actions workflow
+- Built the React application
+- Deployed updated files to Amazon S3
+- Invalidated CloudFront cache
+
+The update was reflected live without manual deployment, demonstrating a fully functional CI/CD pipeline.
+
 ## 💡 Future Enhancements
 
 * Backend integration (API Gateway + Lambda or ECS)
 * Database integration (RDS or DynamoDB)
 * User authentication (Amazon Cognito)
-* Full CI/CD pipeline with GitHub Actions
+* CI/CD pipeline improvements (multi-environment deployments, testing stages)
 
 ---
 
